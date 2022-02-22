@@ -1,0 +1,20 @@
+﻿<Window x:Class="Dejurnie.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Dejurnie"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="RegBoxName" HorizontalAlignment="Left" Margin="57,57,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="RegBoxFam" HorizontalAlignment="Left" Margin="57,94,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="addToMongoButton" Content="Add" HorizontalAlignment="Left" Margin="57,155,0,0" VerticalAlignment="Top" Click="addToMongoButton_Click"/>
+        <TextBox x:Name="RegBoxGroup" HorizontalAlignment="Left" Margin="57,123,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="60"/>
+        <TextBox x:Name="FirstDejyrnii" HorizontalAlignment="Left" Margin="400,42,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="160" Height="122"/>
+        <TextBox x:Name="SecondDejurniy" HorizontalAlignment="Left" Margin="611,42,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="160" Height="122"/>
+        <TextBox x:Name="GroupToChoise" HorizontalAlignment="Left" Margin="400,199,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="getDejurniyButton" Content="Get Students
+                " HorizontalAlignment="Left" Margin="584,199,0,0" VerticalAlignment="Top" Click="getDejurniyButton_Click"/>
+    </Grid>
+</Window>
